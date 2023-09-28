@@ -1,0 +1,109 @@
+
+<html>
+    <head>
+    {% load static %}
+    <link href="{% static 'main_page/base_style_copy.css' %}" rel="stylesheet">
+    </head>
+    <header class="page_headers">
+
+      <div class ="navigation">
+        <div class ="location">
+          <a href="#">
+            {% load static %}
+            <img class="nav_location_img" src="{% static 'main_page/location.svg' %}" alt ="location">
+          </a>
+          <p  style="margin-top:8px;">Красноярск</p>
+      
+        </div>
+        
+        <div class ="location1">
+          <div class ="location1_1">
+          <a  style="color:white; margin-top:2px;" href="#" class="navigation_title_item">Магазин </a>
+          </div>
+          <div class ="location1_2">
+            <a style="color:white; margin-top:8px;" href="#" class="navigation_title_item">Доставка </a>
+          </div>
+          
+        </div>
+
+        <div class ="location2">
+
+          <div class ="location2_1">
+            <a href="#">
+              <img class="nav_menu_Watsapp" src="{% static 'main_page/watsapp.svg' %}" alt ="Watsapp">
+            </a> 
+          </div>
+
+          <div class ="location2_2">
+            <a href="#">
+              <img class="nav_menu_VK" src="{% static 'main_page/vk.svg' %}" alt ="VK">
+            </a> 
+          </div>
+          <div class ="location2_3">
+            <a href="#">
+              <img class="nav_menu_TG" src="{% static 'main_page/telegram.svg' %}" alt ="VK">
+            </a>
+          </div>
+          
+          <div class ="location2_4">
+            <a href="#">
+              <img class="nav_menu_phone" src="{% static 'main_page/phone.svg' %}" alt ="Phone">
+            </a> 
+          </div>
+          <div class ="location2_5"><p>8-983-362-46-97</p></div>  
+        </div>
+      </div>
+
+    </header>
+
+
+    <div class ="head_menu">
+
+
+      <div class="head_menu_logo">
+        <a href="#">
+          <img class="logo" src="{% static 'main_page/logo.svg' %}" alt ="logo">
+        </a>
+      </div> 
+
+      <div class="catalog">
+        <form>
+        <button class="catalog_btn" ><img src="{% static 'main_page/search_catalog.svg' %}" alt="Поиск в каталоге" > Каталог</button>
+        </form>
+      </div>
+
+      <div class="row_search">
+        <div class="search">
+          <form>
+            <input class="row" type="search" name="q">
+          </form>
+        </div>
+        <div class="btn_search">
+          <button class="search_btn" ><img src="{% static 'main_page/search_mini.svg' %}" alt="Поиск в каталоге" ></button>
+        </div>
+                    
+      </div>
+
+      <div class="icon_input">
+        <button class= "input" >
+          <img class="input_img" src="{% static 'main_page/input.svg' %}" alt ="input">
+        </button>
+        <h1 style="color:#0B34BA;font-size: 16px;">Войти</h1>
+      </div>
+      
+      <div class="icon_basket">
+        <button class= "basket" >
+          <img class="basket_img" src="{% static 'main_page/basket.svg' %}" alt ="basket">
+        </button>
+        <h1 style="color:#0B34BA;font-size: 16px;">Корзина</h1>
+      </div>
+    </div>
+    
+
+
+  
+    </html>
+
+    {% block content %}
+
+    {% endblock %}

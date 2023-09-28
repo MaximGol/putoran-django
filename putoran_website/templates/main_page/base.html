@@ -1,0 +1,76 @@
+
+<html>
+    <head>
+    {% load static %}
+    <link href="{% static 'main_page/base_style.css' %}" rel="stylesheet">
+    </head>
+    <header class="page_headers">
+
+      <div class ="navigation">
+        <div class ="location">
+          <a href="#">
+            {% load static %}
+            <img class="nav_location_img" src="{% static 'main_page/location.svg' %}" alt ="location">
+          </a>
+          <h3 style="color:white; margin-top:8px;">Красноярск</h3>   
+        </div>
+        <ul class="nav_menu_list">
+
+          <li>
+            <a href="#" class="navigation_title_item">Магазин</a>
+          </li>
+
+          <li>
+            <a href="#" class="navigation_title_item">Доставка</a>
+          </li>
+
+        </ul>
+        <a href="#">
+          <img class="nav_menu_Watsapp" src="{% static 'main_page/watsapp.svg' %}" alt ="Watsapp">
+        </a> 
+
+        <a href="#">
+          <img class="nav_menu_VK" src="{% static 'main_page/vk.svg' %}" alt ="VK">
+        </a> 
+
+        <a href="#">
+          <img class="nav_menu_TG" src="{% static 'main_page/telegram.svg' %}" alt ="VK">
+        </a>
+        
+        <a href="#">
+          <img class="nav_menu_phone" src="{% static 'main_page/phone.svg' %}" alt ="Phone">
+        </a> 
+
+        <h1>8-983-362-46-97</h1>
+
+      </div>
+    </header>
+    </html>
+      <!--
+           <button class= "nav_menu_buttom" >
+             <img class="nav_menu_basket_img" src="{% static 'main_page/watsapp.svg' %}" alt ="Watsapp">
+           </button>
+           <button class= "nav_menu_buttom" >
+             <img class="nav_menu_basket_img" src="{% static 'main_page/vk.svg' %}" alt ="VK">
+           </button>
+           <button class= "nav_menu_buttom" >
+             <img class="nav_menu_basket_img" src="{% static 'main_page/telegram.svg' %}" alt ="Telegram">
+           </button>
+           <div class="nav_menu_phone">
+             <a href="#">
+               <img class="phone" src="{% static 'main_page/phone.svg' %}" alt="telephon ">
+             </a>
+             <p>8-983-362-46-97</p>
+           </div>
+ 
+         </div>
+       </div>
+      </nav> 
+    </div> 
+
+
+
+    -->
+    {% block content %}
+
+    {% endblock %}

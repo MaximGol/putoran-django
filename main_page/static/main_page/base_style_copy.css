@@ -1,0 +1,208 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box; 
+    
+}
+body{
+    
+    margin: 0 auto;
+    height: 100%;
+    
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    font-weight: 400;
+line-height: normal; 
+}
+.page_headers{
+    width:100%;
+    
+
+}
+
+.navigation{
+    display: flex;
+    justify-content:center;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+
+.location{
+    display: flex;
+    justify-content:flex-start;
+    flex-grow: 0.5;
+
+
+}
+.location1{
+    display: flex;
+
+    
+flex-grow: 4;
+
+}
+.location1_1{
+    
+    margin-left: 20%;
+    margin-top:1%;
+    margin-bottom:1%;
+
+}
+
+.location1_2{
+    margin-left: 10%;
+    margin-top:1%;
+    margin-bottom:1%;
+
+    flex-direction: row;
+
+}
+
+.location2{
+    display: flex;
+    justify-content:space-around;
+    flex-grow: 2;
+    margin-top:5px;
+
+    
+
+    }
+
+.location2_1{
+    margin-left: 30%;
+
+
+}
+
+.nav_location_img{
+    margin-top:1%;
+    margin-bottom:1%; 
+
+}
+
+.nav_menu_Watsapp{
+    margin-top:1%;
+    margin-bottom:1%;
+
+}
+
+.nav_menu_VK{
+    margin-top:1%;
+    margin-bottom:1%;
+
+}
+
+
+.nav_menu_TG{
+    margin-top:1%;
+    margin-bottom:1%;
+}
+
+
+.head_menu{
+    border: solid;
+    color: #0B34BA;
+    display: flex;
+    justify-content:start;
+    flex-wrap: nowrap;
+    background-color: white;
+}
+
+
+.head_menu_logo{
+    margin-top: auto;   
+    width: 15%;
+    border: solid;
+    margin-left: 2%;
+}
+.logo
+{
+    width: 100%;  
+    
+}
+
+
+.catalog{
+    margin-top: auto;
+    margin-left: 5%;
+    width: 15%;
+    border: solid;
+}
+.catalog_btn{
+    width: 100%;
+    background:#0B34BA; 
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #FFF;
+    border-radius: 20px 20px 20px;    
+}
+
+.row_search{
+    
+    border: solid;
+    border-color:  red;    
+    width: 45%;
+    display: flex;
+    justify-content:start;
+    flex-wrap: nowrap;
+    
+
+}
+.search{
+    margin-left: 5%;
+    width: 70%;
+    border: solid;
+    border-color:  green;    
+}
+
+.row{
+    width: 98%;
+    height: 40%;
+    margin-left: 2%;
+    border: solid;
+    border-color:  #0B34BA; 
+    border-radius: 10px 10px 10px;  
+}
+
+.btn_search{
+    width: 10%;
+    border: solid;
+    border-color:  red;    
+}
+.search_btn{
+    background:#0B34BA; 
+
+    border-radius: 10px 10px 10px;   
+
+}
+.input{
+    background:white;
+    border:none 
+}
+.icon_input{
+    margin-left: 5%;
+    background:white; 
+}
+.basket{
+    background:white;
+    border:none 
+}
+
+.icon_basket{
+    margin-left: 2%;
+}

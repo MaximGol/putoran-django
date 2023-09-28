@@ -1,0 +1,141 @@
+background:#0B34BA; 
+    font-family: Inter;
+    font-size: 32px;
+  
+    font-weight: 500;
+
+    line-height: 34px;
+
+    color: #FFF;
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box; 
+    
+}
+body{
+    margin: 0 auto;
+    height: 100%;
+    
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+}
+.page_header{
+    width: 1900px;
+    min-height: 900px;
+
+}
+.navigation{
+    
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(20, 0, 0);
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 47, 255);
+}
+/*
+.location{
+    /*display: flex;
+    justify-content: center;
+    border-style: solid;   
+    border-width: 5px;
+    border-color: rgb(0, 47, 255);
+    
+
+}*/
+
+.nav_location_img{
+    
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 47, 255);
+}
+
+.nav_menu_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    margin:auto;
+    padding: 0;
+    margin-left: 149px;
+    list-style: none;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 47, 255);
+
+}
+.nav_menu_Watsapp{
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 47, 255);
+
+}
+
+.nav_menu_VK{
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 47, 255);
+
+}
+
+.nav_menu_VK{
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 47, 255);
+
+}
+
+.nav_menu_TG{
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 47, 255);
+}*/
+/*
+.nav_menu_links{
+
+
+    flex-direction: column;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal; 
+}
+.class_nav{
+    background: #1a0101;
+    display: flex;
+
+}
+.nav_location_img{
+    background: #1a0101;
+}
+
+.nav_menu_list{
+
+    background: #1a0101;
+    display: flex;
+
+}
+body {
+     background: #0e0101; 
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}*/
+
